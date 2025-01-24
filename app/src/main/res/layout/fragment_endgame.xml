@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/endgame_background_button"
+    tools:context=".Teleop">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <CheckBox
+        android:id="@+id/deadBot"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:buttonTint="@color/white"
+        android:fontFamily="@font/helvetica"
+        android:gravity="bottom"
+        android:onClick="onCheckBoxClicked"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <CheckBox
+        android:id="@+id/penalized"
+        android:layout_width="130dp"
+        android:layout_height="124dp"
+        android:buttonTint="@color/white"
+        android:fontFamily="@font/helvetica"
+        android:gravity="bottom"
+        android:onClick="onCheckBoxClicked"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <EditText
+        android:id="@+id/additionalNotes"
+        android:layout_width="390dp"
+        android:layout_height="164dp"
+        android:fontFamily="@font/helvetica"
+        android:hint="Optional Notes"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/EndgameRadioGroup"
+        android:layout_width="517dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129">
+
+        <RadioButton
+            android:id="@+id/Climb"
+            android:layout_width="253dp"
+            android:layout_height="81dp"
+            android:layout_gravity="bottom"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/helvetica"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/Parking"
+            android:layout_width="254dp"
+            android:layout_height="93dp"
+            android:layout_gravity="bottom"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/helvetica"
+            android:onClick="onRadioButtonClicked" />
+
+
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="purple">#7600bc</color>
+    <color name="darkBlue">#141057</color> // Check Team Sort Blue Button Text Auto UI for Reference - NEW COLOR
+    <color name="lightBlue">#053df4</color> // Check Team Sort Blue Button TEXT Auto UI for Reference - NEW COLOR
+    <color name = "maroon1"> #420606</color>
+    <color name = "maroon2"> #6D0c0c</color>
+    <color name = "maroon3"> #6f1010</color>
+    <color name = "maroon4"> #a10c0c</color>
+    <color name = "maroon5"> #670303</color> // Check Button Rectangle 12 Auto UI for Reference - NEW COLOR NOT IN ORG COLOR PALETTE
+    <color name = "darkGrey"> #616161</color>
+    <color name = "lightGrey"> #8b8b8b</color>
+    <color name = "gold"> #c7a643</color>
+
+
+</resources>
