@@ -22,7 +22,7 @@
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:onClick="onCheckBoxClicked"
-        android:text="Played Defense"
+        android:text=" Played Defense"
         android:textColor="@color/maroon1"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,7 +44,7 @@
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:onClick="onCheckBoxClicked"
-        android:text="Was Defended"
+        android:text=" Was Defended"
         android:textColor="@color/maroon1"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -129,10 +129,10 @@
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintHorizontal_bias="0.622"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.871" />
+        app:layout_constraintVertical_bias="0.881" />
 
     <Button
         android:id="@+id/TeleopL4Increase"
@@ -264,7 +264,7 @@
         app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.881" />
 
     <TextView
         android:id="@+id/TeleopBargeCounter"
@@ -274,11 +274,12 @@
         android:text="0"
         android:textColor="@color/gold"
         android:textSize="50dp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237" />
+        app:layout_constraintVertical_bias="0.245" />
 
     <TextView
         android:id="@+id/TeleopDeReefedCounter"
@@ -288,12 +289,12 @@
         android:text="0"
         android:textColor="@color/gold"
         android:textSize="50dp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.393" />
 
     <TextView
         android:id="@+id/TeleopProcessorCounter"
@@ -303,11 +304,12 @@
         android:text="0"
         android:textColor="@color/gold"
         android:textSize="50dp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
+        app:layout_constraintVertical_bias="0.539" />
 
     <TextView
         android:id="@+id/TeleopL1Counter"

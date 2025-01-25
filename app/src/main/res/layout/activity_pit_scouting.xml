@@ -26,7 +26,7 @@
             android:textColor="@color/maroon1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintHorizontal_bias="0.728"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.724" />
@@ -42,43 +42,44 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.009" />
 
+        <!--        <View-->
+<!--            android:id="@+id/PitScoutingDivider1"-->
+<!--            android:layout_width="550dp"-->
+<!--            android:layout_height="5dp"-->
+<!--            android:layout_marginStart="25dp"-->
+<!--            android:layout_marginEnd="25dp"-->
+<!--            android:layout_marginBottom="1024dp"-->
+<!--            android:background="@android:color/white"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent" />-->
+
         <ImageView
             android:id="@+id/iv_output2"
             android:layout_width="400dp"
             android:layout_height="400dp"
-            android:layout_marginTop="1308dp"
+            android:layout_marginTop="1384dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <View
             android:id="@+id/view2"
-            android:layout_width="341dp"
-            android:layout_height="465dp"
-            android:layout_marginTop="704dp"
+            android:layout_width="445dp"
+            android:layout_height="672dp"
+            android:layout_marginTop="520dp"
             android:background="@drawable/round_rectangle"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.485"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <View
-            android:id="@+id/PitScoutingDivider1"
-            android:layout_width="550dp"
-            android:layout_height="5dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginBottom="1024dp"
-            android:background="@android:color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent" />
-
         <EditText
             android:id="@+id/TeamNumPit"
+            android:gravity="center"
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:layout_marginTop="28dp"
@@ -92,76 +93,71 @@
 
         <EditText
             android:id="@+id/WheelType"
+            android:gravity="center"
             android:layout_width="120dp"
             android:layout_height="50dp"
-            android:layout_marginTop="548dp"
+            android:layout_marginTop="352dp"
             android:hint="Wheel Type"
             android:inputType="text"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <EditText
             android:id="@+id/RobotWidth"
+            android:gravity="center"
             android:layout_width="160dp"
             android:layout_height="49dp"
-            android:layout_marginTop="612dp"
+            android:layout_marginTop="432dp"
             android:hint="Robot Width (in)"
             android:inputType="number"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.847"
+            app:layout_constraintHorizontal_bias="0.863"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/robotLength"
+            android:gravity="center"
             android:layout_width="160dp"
             android:layout_height="49dp"
-            android:layout_marginTop="612dp"
+            android:layout_marginTop="432dp"
             android:hint="Robot Length (in)"
             android:inputType="number"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.113"
+            app:layout_constraintHorizontal_bias="0.136"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/DriveType"
+            android:gravity="center"
             android:layout_width="120dp"
             android:layout_height="50dp"
-            android:layout_marginTop="460dp"
+            android:layout_marginTop="272dp"
             android:hint="DriveType"
             android:inputType="text"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
-            android:id="@+id/numberOfMotors"
-            android:layout_width="184dp"
-            android:layout_height="51dp"
-            android:layout_marginTop="348dp"
-            android:hint=" Number of motors"
-            android:inputType="text"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/Weight"
+            android:gravity="center"
             android:layout_width="120dp"
             android:layout_height="50dp"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="28dp"
             android:hint="Weight"
             android:inputType="number"
             android:textColor="@color/white"
@@ -173,23 +169,26 @@
 
         <EditText
             android:id="@+id/DriveMotors"
+            android:gravity="center"
             android:layout_width="166dp"
             android:layout_height="55dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="28dp"
             android:hint="Drive Motor Type"
             android:inputType="text"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/Weight"
+            app:layout_constraintHorizontal_bias="0.521"
             app:layout_constraintStart_toStartOf="@+id/Weight"
             app:layout_constraintTop_toBottomOf="@+id/Weight" />
 
         <EditText
             android:id="@+id/scoreFromPodium"
-            android:layout_width="259dp"
+            android:gravity="center"
+            android:layout_width="325dp"
             android:layout_height="52dp"
-            android:layout_marginTop="712dp"
-            android:hint="Can score from Podium"
+            android:layout_marginTop="624dp"
+            android:hint="Location of Scoring"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
@@ -199,99 +198,99 @@
 
         <EditText
             android:id="@+id/notesOnAMPorScoring"
-            android:layout_width="261dp"
-            android:layout_height="54dp"
-            android:layout_marginTop="780dp"
-            android:hint="Prefer AMP or Speaker"
+            android:gravity="center"
+            android:layout_width="325dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="548dp"
+            android:hint="Coral and/or Algae"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/intakeMethod"
-            android:layout_width="259dp"
-            android:layout_height="46dp"
-            android:layout_marginTop="848dp"
-            android:hint="Intake Method"
+            android:gravity="center"
+            android:layout_width="325dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="708dp"
+            android:hint="Ground or Station Intake"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/abilityToClimb"
-            android:layout_width="259dp"
-            android:layout_height="46dp"
-            android:layout_marginTop="900dp"
-            android:hint="Ability to harmonize"
+            android:gravity="center"
+            android:layout_width="325dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="788dp"
+            android:hint="Shallow or Deep"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/climbingFeatures"
-            android:layout_width="259dp"
-            android:layout_height="46dp"
-            android:layout_marginTop="944dp"
+            android:gravity="center"
+            android:layout_width="325dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="876dp"
             android:hint="Climbing features"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/autoRoutine"
-            android:layout_width="259dp"
-            android:layout_height="46dp"
-            android:layout_marginTop="1000dp"
+            android:gravity="center"
+            android:layout_width="325dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="956dp"
             android:hint="Notes on auto routine"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/notesOnRobot"
-            android:layout_width="259dp"
-            android:layout_height="46dp"
-            android:layout_marginTop="1052dp"
+            android:gravity="center"
+            android:layout_width="325dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="1032dp"
             android:hint="Extra notes"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/robotName"
-            android:layout_width="259dp"
-            android:layout_height="46dp"
-            android:layout_marginTop="1108dp"
+            android:gravity="center"
+            android:layout_width="325dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="1112dp"
             android:hint="Robot Name"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -299,11 +298,11 @@
             android:id="@+id/pitScoutingSave"
             android:layout_width="139dp"
             android:layout_height="84dp"
-            android:layout_marginTop="1176dp"
+            android:layout_marginTop="1232dp"
             android:background="@color/white"
             android:text="Save"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.306"
+            app:layout_constraintHorizontal_bias="0.272"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

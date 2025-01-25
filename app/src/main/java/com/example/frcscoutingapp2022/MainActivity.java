@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
 
-            case R.id.Climb:
+            case R.id.Shallow:
                 if(endgame.Shallow ==1){
                     EndgameRadioGroup.clearCheck();
                     endgame.Shallow =0;
@@ -146,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     endgame.Shallow =1;
                     endgame.Parking =0;
+                    endgame.Deep=0;
                 System.out.println(endgame.Shallow);
                 System.out.println(endgame.Parking);}
                 break;
@@ -157,8 +158,21 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     endgame.Shallow =0;
                     endgame.Parking =1;
+                    endgame.Deep = 0;
                 System.out.println(endgame.Shallow);
                 System.out.println(endgame.Parking);}
+                break;
+            case R.id.Deep:
+                if(endgame.Deep==1){
+                    EndgameRadioGroup.clearCheck();
+                    endgame.Deep=0;
+                }
+                else{
+                    endgame.Shallow =0;
+                    endgame.Parking =0;
+                    endgame.Deep = 1;
+                    System.out.println(endgame.Shallow);
+                    System.out.println(endgame.Parking);}
                 break;
         }
 

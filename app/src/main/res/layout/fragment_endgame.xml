@@ -12,24 +12,24 @@
 
     <CheckBox
         android:id="@+id/deadBot"
-        android:layout_width="110dp"
-        android:layout_height="105dp"
+        android:layout_width="191dp"
+        android:layout_height="194dp"
         android:buttonTint="@color/white"
         android:fontFamily="@font/helvetica"
         android:gravity="bottom"
+
         android:onClick="onCheckBoxClicked"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.618" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
         android:id="@+id/penalized"
-        android:layout_width="130dp"
-        android:layout_height="124dp"
+        android:layout_width="182dp"
+        android:layout_height="201dp"
         android:buttonTint="@color/white"
         android:fontFamily="@font/helvetica"
         android:gravity="bottom"
@@ -37,25 +37,25 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintHorizontal_bias="0.203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
+        app:layout_constraintVertical_bias="0.495" />
 
     <EditText
         android:id="@+id/additionalNotes"
-        android:layout_width="390dp"
-        android:layout_height="164dp"
+        android:layout_width="444dp"
+        android:layout_height="282dp"
         android:fontFamily="@font/helvetica"
-        android:hint="Optional Notes"
+        android:hint="Optional Notes(No Commas)"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:textSize="40dp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.845" />
+        app:layout_constraintVertical_bias="0.928" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"
@@ -64,32 +64,42 @@
 
     <RadioGroup
         android:id="@+id/EndgameRadioGroup"
-        android:layout_width="517dp"
-        android:layout_height="68dp"
+        android:layout_width="528dp"
+        android:layout_height="232dp"
         android:layout_marginBottom="40dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintHorizontal_bias="0.777"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129">
+        app:layout_constraintVertical_bias="0.176">
 
         <RadioButton
-            android:id="@+id/Climb"
-            android:layout_width="253dp"
-            android:layout_height="81dp"
+            android:id="@+id/Parking"
+            android:layout_width="195dp"
+            android:layout_height="227dp"
             android:layout_gravity="bottom"
-            android:buttonTint="@color/white"
+            android:buttonTint="@color/gold"
             android:fontFamily="@font/helvetica"
             android:onClick="onRadioButtonClicked" />
 
         <RadioButton
-            android:id="@+id/Parking"
-            android:layout_width="254dp"
-            android:layout_height="93dp"
+            android:id="@+id/Deep"
+            android:layout_width="191dp"
+            android:layout_height="233dp"
             android:layout_gravity="bottom"
-            android:buttonTint="@color/white"
+            android:buttonTint="@color/gold"
+            android:fontFamily="@font/helvetica"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/Shallow"
+            android:layout_width="171dp"
+            android:layout_height="225dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:buttonTint="@color/gold"
             android:fontFamily="@font/helvetica"
             android:onClick="onRadioButtonClicked" />
 

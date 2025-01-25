@@ -85,9 +85,9 @@ public class save extends Fragment implements View.OnClickListener{
 //Code for QR match scouting
 
                 data = MainActivity.teamNumber + "," + MainActivity.matchNumber + ","
-                        /* Auto */   + Auto.leave + "," + Auto.AutoL2 + "," + Auto.AutoL1 + "," + Auto.AutoL3 + ","
-                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ Teleop.TeleopL1 + "," + Teleop.TeleopL3 + "," + Teleop.TeleopL2 + "," + Teleop.TeleopL4 + ","
-                        /* Endgame */+ endgame.Shallow +","+ endgame.Parking +","
+                        /* Auto */   + Auto.leave + "," + Auto.AutoL1 + "," + Auto.AutoL2 + "," + Auto.AutoL3 + "," +","+ Auto.AutoL4 + "," + Auto.AutoBarge + "," + Auto.AutoProcessor + "," + Auto.AutoDeReefed + ","
+                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ Teleop.TeleopL1 + "," + Teleop.TeleopL2 + "," + Teleop.TeleopL3 + "," + Teleop.TeleopL4 + "," + Teleop.TeleopBarge + "," + Teleop.TeleopProcessor + "," + Teleop.TeleopDeReefed + ","
+                        /* Endgame */+ endgame.Shallow +","+ endgame.Parking +"," + endgame.Deep + ","
                         /* AddInfo*/ + endgame.penalty + "," + endgame.deadBot + "," + MainActivity.alliance + "," + endgame.additionalNotes  + "," + MainActivity.scoutName;
 
 
@@ -153,10 +153,10 @@ public class save extends Fragment implements View.OnClickListener{
                 System.out.println(MainActivity.defendedOnByNumber);
                 //code for saving results
                 data += MainActivity.teamNumber + "," + MainActivity.matchNumber + ","
-                        /* Auto */   + Auto.leave + "," + Auto.AutoL2 + "," + Auto.AutoL1 + "," + Auto.AutoL3 + ","
-                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ Teleop.TeleopL1 + "," + Teleop.TeleopL3 + "," + Teleop.TeleopL2 + "," + Teleop.TeleopL4 + ","
-                        /* Endgame */+ endgame.Shallow +","+ endgame.Parking
-                        /* AddInfo*/ + "," + endgame.penalty + "," + endgame.deadBot + "," + MainActivity.alliance + "," + endgame.additionalNotes  + "," + MainActivity.scoutName;
+                        /* Auto */   + Auto.leave + "," + Auto.AutoL1 + "," + Auto.AutoL2 + "," + Auto.AutoL3 + "," +","+ Auto.AutoL4 + "," + Auto.AutoBarge + "," + Auto.AutoProcessor + "," + Auto.AutoDeReefed + ","
+                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ Teleop.TeleopL1 + "," + Teleop.TeleopL2 + "," + Teleop.TeleopL3 + "," + Teleop.TeleopL4 + "," + Teleop.TeleopBarge + "," + Teleop.TeleopProcessor + "," + Teleop.TeleopDeReefed + ","
+                        /* Endgame */+ endgame.Shallow +","+ endgame.Parking +"," + endgame.Deep + ","
+                        /* AddInfo*/ + endgame.penalty + "," + endgame.deadBot + "," + MainActivity.alliance + "," + endgame.additionalNotes  + "," + MainActivity.scoutName;
 
 
                 // Create and save file

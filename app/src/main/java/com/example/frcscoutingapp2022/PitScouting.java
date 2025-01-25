@@ -33,13 +33,12 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
     private static EditText TeamNumPit;
     private static EditText Weight;
     private static EditText DriveMotors;
-    private static EditText numberOfMotors;
     private static EditText WheelType;
     private static EditText DriveType;
     private static EditText robotLength;
     private static EditText RobotWidth;
-    private static EditText ScoreFromPodium;
-    private static EditText notesOnAMPOrSpeaker;
+    private static EditText locationScoring;
+    private static EditText coralOrAlgae;
     private static EditText abilityToClimb;
     private static EditText climbingFeatures;
     private static EditText intakeMethod;
@@ -64,14 +63,13 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
         DriveMotors = (EditText) findViewById(R.id.DriveMotors);
         robotLength = (EditText) findViewById(R.id.robotLength);
         RobotWidth = (EditText) findViewById(R.id.RobotWidth);
-        ScoreFromPodium = (EditText) findViewById(R.id.scoreFromPodium);
-        notesOnAMPOrSpeaker = (EditText) findViewById(R.id.notesOnAMPorScoring);
+        locationScoring = (EditText) findViewById(R.id.scoreFromPodium);
+        coralOrAlgae = (EditText) findViewById(R.id.notesOnAMPorScoring);
         abilityToClimb = (EditText) findViewById(R.id.abilityToClimb);
         climbingFeatures = (EditText) findViewById(R.id.climbingFeatures);
         intakeMethod = (EditText) findViewById(R.id.intakeMethod);
         autoRoutine = (EditText) findViewById(R.id.autoRoutine);
         notesOnRobot = (EditText) findViewById(R.id.notesOnRobot);
-        numberOfMotors = (EditText) findViewById(R.id.numberOfMotors);
         WheelType = (EditText) findViewById(R.id.WheelType);
         DriveType = (EditText) findViewById(R.id.DriveType);
         robotName = (EditText) findViewById(R.id.robotName);
@@ -88,8 +86,8 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
             case R.id.pitScoutingSave:
 
                 //save QR code
-                data = TeamNumPit.getText().toString() + ","+Weight.getText().toString()+","+DriveMotors.getText().toString()+","+numberOfMotors.getText().toString()+","+WheelType.getText().toString()+","+DriveType.getText().toString()+","+robotLength.getText().toString()+","+
-                        RobotWidth.getText().toString()+","+ ScoreFromPodium.getText().toString()+","+ notesOnAMPOrSpeaker.getText().toString()+","+ abilityToClimb.getText().toString()+","+ climbingFeatures.getText().toString()+","+
+                data = TeamNumPit.getText().toString() + ","+Weight.getText().toString()+","+DriveMotors.getText().toString()+","+WheelType.getText().toString()+","+DriveType.getText().toString()+","+robotLength.getText().toString()+","+
+                        RobotWidth.getText().toString()+","+ locationScoring.getText().toString()+","+ coralOrAlgae.getText().toString()+","+ abilityToClimb.getText().toString()+","+ climbingFeatures.getText().toString()+","+
                         intakeMethod.getText().toString()+","+autoRoutine.getText().toString()+","+notesOnRobot.getText().toString()+","+robotName.getText().toString();
 
                 //Initialize multi format writer
