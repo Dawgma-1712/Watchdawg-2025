@@ -47,7 +47,7 @@
         android:layout_width="444dp"
         android:layout_height="282dp"
         android:fontFamily="@font/helvetica"
-        android:hint="Optional Notes(No Commas)"
+        android:hint="Optional Notes(No Commas, No Returns)"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="30dp"

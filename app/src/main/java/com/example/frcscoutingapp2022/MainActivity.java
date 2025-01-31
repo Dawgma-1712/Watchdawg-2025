@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onRadioButtonClicked(View view) {
        RadioGroup EndgameRadioGroup = (RadioGroup)findViewById(R.id.EndgameRadioGroup);
-        RadioGroup AutoRadioGroup = (RadioGroup)findViewById(R.id.AutoRadioGroup);
+       RadioGroup AutoRadioGroup = (RadioGroup)findViewById(R.id.AutoRadioGroup);
 
         //run all radio buttons
         switch (view.getId()) {
@@ -177,11 +177,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         boolean checked = ((RadioButton) view).isChecked();
-
-//
-//    public void updateTeamAndMatchNum() {
-//        teamNumber = Integer.parseInt(((EditText)findViewById(R.id.teamNum)).getText().toString());
-//        matchNumber = Integer.parseInt(((EditText)findViewById(R.id.matchNum)).getText().toString());
-//    }
     }
+
 }
