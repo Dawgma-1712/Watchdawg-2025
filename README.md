@@ -1,4 +1,4 @@
-# FRC Scouting App 2024 - WatchDawg
+# FRC Scouting App 2025 - WatchDawg
 
 WatchDawg is the scouting system developed by FRC Team 1712. This android application was designed to work in venues without a cell connection.
 It is written in Java using Android Studio, and currently only supports Android.
@@ -49,5 +49,5 @@ Please check if you have the required systems before proceeding:
 
 [User Manual](https://drive.google.com/file/d/12SfmIfrE4jO-iXsUcxjxSocopkPntey1/view?usp=sharing)
 [Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1M5AJ6OLUHUHI&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=watchdawg&qid=1708785480&s=mobile-apps&sprefix=%2Cmobile-apps%2C292&sr=1-1)
-[Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2024/blob/7561617b01785c3759b1fff234dfd413fb4b5963/WATCHDAWG_2024_Excel(Standered_Deviation).xlsm)
-[Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2024/blob/477a2d4bf7d0b6c7f1a3a8495aff063bbd83ca7f/MatchStrategySheet2024.docx)
+[Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2025/blob/b7dbba1a3ad4e020d0530285126b897ce47344f5/2025WATCHDAWG_EXCELUPDATED.xlsm)
+[Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2025/blob/b7dbba1a3ad4e020d0530285126b897ce47344f5/MatchStrategySheet2025.docx)
