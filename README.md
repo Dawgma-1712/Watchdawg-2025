@@ -3,7 +3,7 @@
 WatchDawg is the scouting system developed by FRC Team 1712. This android application was designed to work in venues without a cell connection.
 It is written in Java using Android Studio, and currently only supports Android.
 
-* [User Manual](https://github.com/Dawgma-1712/Watchdawg-2025/blob/dfff205b0eb28a5d533d199fee723d55e7c87438/2025%20Dawgma%20Scouting%20User%20Manual.pdf)- contains details regarding setup and use of WatchDawg & the Excel
+* [User Manual](https://github.com/Dawgma-1712/Watchdawg-2025/blob/881f95513685880df089f089b7f478976efa029a/2025%20Dawgma%20Scouting%20User%20Manual%20(1).pdf)- contains details regarding setup and use of WatchDawg & the Excel
 * [Match Scouting](https://www.youtube.com/watch?v=22WRLwfsiaw) - YouTube video instructions on game scouting
 * [Pit Scouting](https://www.youtube.com/watch?v=MEn6Ywp-T_4) - YouTube video instructions on pit scouting
 * [Microsoft Excel](https://www.youtube.com/watch?v=07z0OlxK7lk) - Youtube video instructions on microsoft excel
@@ -47,7 +47,7 @@ Please check if you have the required systems before proceeding:
 
 ## Documentation and Files
 
-[User Manual](https://github.com/Dawgma-1712/Watchdawg-2025/blob/dfff205b0eb28a5d533d199fee723d55e7c87438/2025%20Dawgma%20Scouting%20User%20Manual.pdf)
+[User Manual](https://github.com/Dawgma-1712/Watchdawg-2025/blob/881f95513685880df089f089b7f478976efa029a/2025%20Dawgma%20Scouting%20User%20Manual%20(1).pdf)
 [Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1M5AJ6OLUHUHI&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=watchdawg&qid=1708785480&s=mobile-apps&sprefix=%2Cmobile-apps%2C292&sr=1-1)
 [Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2025/blob/455d3f4ffb90d56c4278f7a585652ed6b1cd63a9/2025WATCHDAWG_EXCELUPDATED.xlsm)
 [Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2025/blob/b7dbba1a3ad4e020d0530285126b897ce47344f5/MatchStrategySheet2025.docx)
