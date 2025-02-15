@@ -47,7 +47,7 @@ Please check if you have the required systems before proceeding:
 
 ## Documentation and Files
 
-[User Manual](https://drive.google.com/file/d/12SfmIfrE4jO-iXsUcxjxSocopkPntey1/view?usp=sharing)
+[User Manual](https://github.com/Dawgma-1712/Watchdawg-2025/blob/dfff205b0eb28a5d533d199fee723d55e7c87438/2025%20Dawgma%20Scouting%20User%20Manual.pdf)
 [Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1M5AJ6OLUHUHI&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=watchdawg&qid=1708785480&s=mobile-apps&sprefix=%2Cmobile-apps%2C292&sr=1-1)
 [Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2025/blob/b7dbba1a3ad4e020d0530285126b897ce47344f5/2025WATCHDAWG_EXCELUPDATED.xlsm)
 [Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2025/blob/b7dbba1a3ad4e020d0530285126b897ce47344f5/MatchStrategySheet2025.docx)
