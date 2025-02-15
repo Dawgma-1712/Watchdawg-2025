@@ -236,7 +236,6 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
                 else L3=1;
                 break;
             case R.id.l4:
-                System.out.print("kill yourself now");
                 if(L4==1) L4=0;
                 else L4=1;
                 break;

@@ -1,6 +1,7 @@
 //2022 Mark and Micheal(Officer). Excel Oliver(The Excel God)
 //2023 Micheal, Andy, and Simon(Oliver II). Excel Oliver(The Excel God)(Officer)
 //2024 Simon(Officer)(Oliver II) and Luka. Excel Ivan. UI design Mason
+//2025 Simon(Officer)(Oliver II). Excel Ivan. UI design Mason. Git managment Terrence
 
 package com.example.frcscoutingapp2022;
 
