@@ -76,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
         defendedOn = 0;
 
 
+
+
     }
 
     public static void editMatchData(int ind0, int ind1, int value) {

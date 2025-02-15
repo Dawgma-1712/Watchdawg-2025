@@ -32,6 +32,7 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
                 break;
 
             case R.id.pitScouting:
+                System.out.print("kill yourself now");
                 Intent i = new Intent(this, PitScouting.class);
                 startActivity(i);
                 break;

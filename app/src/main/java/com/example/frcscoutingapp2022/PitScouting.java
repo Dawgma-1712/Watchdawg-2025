@@ -11,6 +11,7 @@ import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -37,14 +38,22 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
     private static EditText DriveType;
     private static EditText robotLength;
     private static EditText RobotWidth;
-    private static EditText locationScoring;
-    private static EditText coralOrAlgae;
-    private static EditText abilityToClimb;
+    private static String locationScoringCoral = "";
     private static EditText climbingFeatures;
-    private static EditText intakeMethod;
     private static EditText autoRoutine;
     private static EditText notesOnRobot;
     private static EditText robotName;
+
+    //PitScouting varibles
+    public static int L1;
+    public static int L2;
+    public static int L3;
+    public static int L4;
+    public static String intakeMethod="";
+    public static String locationScoringAlgae="";
+    public static String abilityToClimb="";
+
+
 
     private static ImageView iv_output2;
     @SuppressLint("MissingInflatedId")
@@ -57,17 +66,15 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
 
         findViewById(R.id.pitScoutingSave).setOnClickListener(this);
         findViewById(R.id.newActivityPitScouting).setOnClickListener(this);
+
+
         //initializing text varibles
         TeamNumPit = (EditText) findViewById(R.id.TeamNumPit);
         Weight = (EditText) findViewById(R.id.Weight);
         DriveMotors = (EditText) findViewById(R.id.DriveMotors);
         robotLength = (EditText) findViewById(R.id.robotLength);
         RobotWidth = (EditText) findViewById(R.id.RobotWidth);
-        locationScoring = (EditText) findViewById(R.id.scoreFromPodium);
-        coralOrAlgae = (EditText) findViewById(R.id.notesOnAMPorScoring);
-        abilityToClimb = (EditText) findViewById(R.id.abilityToClimb);
         climbingFeatures = (EditText) findViewById(R.id.climbingFeatures);
-        intakeMethod = (EditText) findViewById(R.id.intakeMethod);
         autoRoutine = (EditText) findViewById(R.id.autoRoutine);
         notesOnRobot = (EditText) findViewById(R.id.notesOnRobot);
         WheelType = (EditText) findViewById(R.id.WheelType);
@@ -83,12 +90,16 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
     @Override
     public void onClick(View view) {
         switch(view.getId()){
-            case R.id.pitScoutingSave:
 
+            case R.id.pitScoutingSave:
+                if(L1==1) locationScoringCoral +="L1-";
+                if(L2==1) locationScoringCoral +="L2-";
+                if(L3==1) locationScoringCoral +="L3-";
+                if(L4==1) locationScoringCoral +="L4";
                 //save QR code
                 data = TeamNumPit.getText().toString() + ","+Weight.getText().toString()+","+DriveMotors.getText().toString()+","+WheelType.getText().toString()+","+DriveType.getText().toString()+","+robotLength.getText().toString()+","+
-                        RobotWidth.getText().toString()+","+ locationScoring.getText().toString()+","+ coralOrAlgae.getText().toString()+","+ abilityToClimb.getText().toString()+","+ climbingFeatures.getText().toString()+","+
-                        intakeMethod.getText().toString()+","+autoRoutine.getText().toString()+","+notesOnRobot.getText().toString()+","+robotName.getText().toString();
+                        RobotWidth.getText().toString()+","+ locationScoringCoral+","+ locationScoringAlgae+","+ abilityToClimb+","+ climbingFeatures.getText().toString()+","+
+                        intakeMethod+","+autoRoutine.getText().toString()+","+notesOnRobot.getText().toString()+","+robotName.getText().toString();
 
                 //Initialize multi format writer
                 MultiFormatWriter writer = new MultiFormatWriter();
@@ -115,10 +126,124 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
 
                 break;
             case R.id.newActivityPitScouting:
+                L1=0;
+                L2=0;
+                L3=0;
+                L4=0;
+                intakeMethod="";
+                locationScoringCoral="";
+                locationScoringAlgae="";
+                abilityToClimb="";
                 startActivity(new Intent(this, HomeScreen.class));
                 break;
 
         }
+    }
+    public void onCheckBoxClicked(View view) {
+        // Is view checked
+        boolean checked = ((CheckBox) view).isChecked();
+
+        // Check which one clicked
+        switch (view.getId()) {
+            case R.id.deep:
+                if(abilityToClimb.equals("deep")){
+                    abilityToClimb = "";
+                }
+                else if(abilityToClimb.equals("both")){
+                    abilityToClimb = "shallow";
+                }
+                else {
+                    if (abilityToClimb.equals("shallow"))
+                        abilityToClimb = "both";
+                    else abilityToClimb = "deep";
+                }
+                break;
+            case R.id.shallow:
+                if(abilityToClimb.equals("shallow")){
+                    abilityToClimb = "";
+                }
+                else if(abilityToClimb.equals("both")){
+                    abilityToClimb = "deep";
+                }
+                else {
+                    if (abilityToClimb.equals("deep"))
+                        abilityToClimb = "both";
+                    else abilityToClimb = "shallow";
+                }
+                break;
+            case R.id.ground:
+                if(intakeMethod.equals("ground")){
+                    intakeMethod = "";
+                }
+                else if(intakeMethod.equals("both")){
+                    intakeMethod = "human player";
+                }
+                else {
+                    if (intakeMethod.equals("human player"))
+                        intakeMethod = "both";
+                    else intakeMethod = "ground";
+                }
+                break;
+            case R.id.HP:
+                if(intakeMethod.equals("human player")){
+                    intakeMethod = "";
+                }
+                else if(intakeMethod.equals("both")){
+                    intakeMethod = "ground";
+                }
+                else {
+                    if (intakeMethod.equals("ground"))
+                        intakeMethod = "both";
+                    else intakeMethod = "human player";
+                }
+                break;
+            case R.id.barge:
+                if(locationScoringAlgae.equals("barge")){
+                    locationScoringAlgae = "";
+                }
+                else if(locationScoringAlgae.equals("both")){
+                    locationScoringAlgae = "processor";
+                }
+                else {
+                    if (locationScoringAlgae.equals("processor"))
+                        locationScoringAlgae = "both";
+                    else locationScoringAlgae = "barge";
+                }
+                break;
+            case R.id.processor:
+                if(locationScoringAlgae.equals("processor")){
+                    locationScoringAlgae = "";
+                }
+                else if(locationScoringAlgae.equals("both")){
+                    locationScoringAlgae = "barge";
+                }
+                else {
+                    if (locationScoringAlgae.equals("barge"))
+                        locationScoringAlgae = "both";
+                    else locationScoringAlgae = "processor";
+                }
+                break;
+            case R.id.l1:
+                if(L1==1) L1=0;
+                else L1=1;
+                break;
+            case R.id.l2:
+                if(L2==1) L2=0;
+                else L2=1;
+                break;
+            case R.id.l3:
+                if(L3==1) L3=0;
+                else L3=1;
+                break;
+            case R.id.l4:
+                System.out.print("kill yourself now");
+                if(L4==1) L4=0;
+                else L4=1;
+                break;
+
+        }
+
+
     }
 
     private void saveImage(Bitmap bitmap, String name) {
