@@ -31,14 +31,14 @@ Easy to use:
 * Android Amazon Fire 7 Tablets (6-7 tablets are recommended)
 * A Computer with the latest Microsoft Excel installed
 * A QR code scanner
-* The app downloaded either through Android Studio using the Github release or the the [Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1M5AJ6OLUHUHI&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=watchdawg&qid=1708785480&s=mobile-apps&sprefix=%2Cmobile-apps%2C292&sr=1-1)
+* The app downloaded either through Android Studio using the Github release or the the Amazon Store (Link Coming Soon)
 
 
 ## Quick Start 
 Please check if you have the required systems before proceeding:
 
 1. Download the Microsoft Excel Spreadsheet found in this Github Repository. You will need to add the Developed tab to the ribbon if you want to edit any macros.
-2. Download the app if you haven't already - Either from the latest Github release or the [Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1M5AJ6OLUHUHI&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=watchdawg&qid=1708785480&s=mobile-apps&sprefix=%2Cmobile-apps%2C292&sr=1-1)
+2. Download the app if you haven't already - Either from the latest Github release or the Amazon Store(Link Coming Soon)
 3. Download the instruction manual 
 4. Follow the instruction manual, or our tutorial videos linked above.
 
@@ -48,6 +48,6 @@ Please check if you have the required systems before proceeding:
 ## Documentation and Files
 
 [User Manual](https://github.com/Dawgma-1712/Watchdawg-2025/blob/881f95513685880df089f089b7f478976efa029a/2025%20Dawgma%20Scouting%20User%20Manual%20(1).pdf)
-[Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1M5AJ6OLUHUHI&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=watchdawg&qid=1708785480&s=mobile-apps&sprefix=%2Cmobile-apps%2C292&sr=1-1)
+Amazon Store (Link Coming Soon)
 [Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2025/blob/455d3f4ffb90d56c4278f7a585652ed6b1cd63a9/2025WATCHDAWG_EXCELUPDATED.xlsm)
 [Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2025/blob/b7dbba1a3ad4e020d0530285126b897ce47344f5/MatchStrategySheet2025.docx)
