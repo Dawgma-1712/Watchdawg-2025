@@ -71,7 +71,7 @@ public class endgame extends Fragment implements View.OnClickListener {
 
     @SuppressLint("MissingInflatedId")
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+   public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_endgame, container, false);
@@ -80,11 +80,11 @@ public class endgame extends Fragment implements View.OnClickListener {
 
 
         //Endgame
-        Parking = 0;
+        /*    Parking = 0;
         Shallow = 0;
         Deep = 0;
         penalty = 0;
-        deadBot = 0;
+        deadBot = 0; */
 
 
         return view;
@@ -100,4 +100,5 @@ public class endgame extends Fragment implements View.OnClickListener {
 
         }
     }
+
 }

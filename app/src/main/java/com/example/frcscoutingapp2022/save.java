@@ -121,6 +121,11 @@ public class save extends Fragment implements View.OnClickListener{
 
                 break;
             case R.id.newMatch2:
+                endgame.Parking = 0;
+                endgame.Shallow = 0;
+                endgame.Deep = 0;
+                endgame.penalty = 0;
+                endgame.deadBot = 0;
                 Intent intent = new Intent(getActivity(), HomeScreen.class);
 
                 startActivity(intent);

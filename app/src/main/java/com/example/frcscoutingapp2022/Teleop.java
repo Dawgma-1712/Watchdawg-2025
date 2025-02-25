@@ -222,26 +222,7 @@ public class Teleop extends Fragment implements View.OnClickListener{
         TeleopDeReefedText.setText(Integer.toString(TeleopDeReefedCounter));
     }
 
-    public void clear(){
-        //reset
-        TeleopL1Text.setText(Integer.toString(0));
-        TeleopL2Text.setText(Integer.toString(0));
-        TeleopL4Text.setText(Integer.toString(0));
-        TeleopL3Text.setText(Integer.toString(0));
-        TeleopBargeText.setText(Integer.toString(0));
-        TeleopDeReefedText.setText(Integer.toString(0));
-        TeleopProcessorText.setText(Integer.toString(0));
 
-        TeleopL1Counter = 0;
-        TeleopL2Counter = 0;
-        TeleopL3Counter = 0;
-        TeleopL4Counter = 0;
-        TeleopBargeCounter = 0;
-        TeleopDeReefedCounter = 0;
-        TeleopProcessorCounter = 0;
-
-
-    }
 
 
 
