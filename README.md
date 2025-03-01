@@ -48,6 +48,6 @@ Please check if you have the required systems before proceeding:
 ## Documentation and Files
 
 [User Manual](https://github.com/Dawgma-1712/Watchdawg-2025/blob/2fbe2bc410220c71ddfa802f27ea7d1e979237ee/2025%20Dawgma%20Scouting%20User%20Manual%20(3).pdf)
-Amazon Store (Link Coming Soon)
+[Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=3VO7RU5EHGVY9&dib=eyJ2IjoiMSJ9.sal-Duc88BgaLIBymz44tfnoCWjgIgh1TddOblRr_6Y-Z1l6ukUKQeJgBd_UUvDMis28NAcrShkP2D-j77RsK9jtocBE-9apfar3COkRDxFPL-UUJmJqFiZ0lQ9QomZXsNH7b3lAueTpa8Hw-zFN5m1GebULMRPxz9dxpZQaIpqQMZDmlq0te-K8eHOr6MOJAjec36bTYrOTetMupGcBALIinDXJZRq0mgOxFULxy9MN0oc0E2faJagk0MwW2aaT0vMz2v1vK0VYFA0AuiZPJPGh5mX-vQMbFYNuUKOQk0_FWcFL6FVzJDsiYtm0jHVnULWLMhqS7Z5J8RzTNM0FJDNhG8NGnhx7z_eUFuPNtBv6mrThNBm-JRdk4fpAOO-8whMsuYieZm9FyrZkZSt4T8tARxkUaocFuzgHt5Ban-hlrDFR3JbDebkbH8ROZmSr.dB83ZtGptPwYySN8mp37AxeGcU_WB8QZJrx1TEEHxOg&dib_tag=se&keywords=dawgma&qid=1740859854&s=mobile-apps&sprefix=dawgma%2Cmobile-apps%2C89&sr=1-1)
 [Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2025/blob/455d3f4ffb90d56c4278f7a585652ed6b1cd63a9/2025WATCHDAWG_EXCELUPDATED.xlsm)
 [Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2025/blob/b7dbba1a3ad4e020d0530285126b897ce47344f5/MatchStrategySheet2025.docx)
