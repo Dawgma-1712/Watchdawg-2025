@@ -54,7 +54,7 @@ public class Auto extends Fragment implements View.OnClickListener {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_auto, container, false);
-
+        System.out.println(AutoBarge);
 
 
         //Define TextViews
@@ -93,15 +93,6 @@ public class Auto extends Fragment implements View.OnClickListener {
 
 
         //Auto
-        leave = 0;
-        AutoL1 = 0;
-        AutoL2 = 0;
-        AutoL3 = 0;
-        AutoL4 = 0;
-        AutoBarge = 0;
-        AutoDeReefed = 0;
-        AutoProcessor = 0;
-
 
         return view;
     }
@@ -171,6 +162,7 @@ public class Auto extends Fragment implements View.OnClickListener {
                     Auto.AutoL4--;
                 } break;
             case R.id.AutoBargeIncrease:
+                System.out.println("Eat shit");
                 AutoBargeCounter++;
                 AutoBargeText.setText(Integer.toString(AutoBargeCounter));
                 //MainActivity.editMatchData(0, 2, MainActivity.getButtonData()[0][2] + 1);

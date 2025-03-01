@@ -126,6 +126,21 @@ public class save extends Fragment implements View.OnClickListener{
                 endgame.Deep = 0;
                 endgame.penalty = 0;
                 endgame.deadBot = 0;
+                Teleop.TeleopL1 = 0;
+                Teleop.TeleopL2 = 0;
+                Teleop.TeleopL3 = 0;
+                Teleop.TeleopL4 = 0;
+                Teleop.TeleopBarge = 0;
+                Teleop.TeleopProcessor = 0;
+                Teleop.TeleopDeReefed = 0;
+                Auto.leave = 0;
+                Auto.AutoL1 = 0;
+                Auto.AutoL2 = 0;
+                Auto.AutoL3 = 0;
+                Auto.AutoL4 = 0;
+                Auto.AutoBarge = 0;
+                Auto.AutoDeReefed = 0;
+                Auto.AutoProcessor = 0;
                 Intent intent = new Intent(getActivity(), HomeScreen.class);
 
                 startActivity(intent);
