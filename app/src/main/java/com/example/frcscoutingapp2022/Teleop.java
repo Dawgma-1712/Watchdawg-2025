@@ -83,13 +83,6 @@ public class Teleop extends Fragment implements View.OnClickListener{
         view.findViewById(R.id.TeleopProcessorDecrease).setOnClickListener(this);
 
         //Teleop
-        TeleopL1 = 0;
-        TeleopL2 = 0;
-        TeleopL3 = 0;
-        TeleopL4 = 0;
-        TeleopBarge = 0;
-        TeleopProcessor = 0;
-        TeleopDeReefed = 0;
 
         return view;
     }

@@ -91,7 +91,7 @@ public class Auto extends Fragment implements View.OnClickListener {
         view.findViewById(R.id.AutoProcessorIncrease).setOnClickListener(this);
         view.findViewById(R.id.AutoProcessorDecrease).setOnClickListener(this);
 
-
+        leave =1;
         //Auto
 
         return view;
@@ -162,7 +162,6 @@ public class Auto extends Fragment implements View.OnClickListener {
                     Auto.AutoL4--;
                 } break;
             case R.id.AutoBargeIncrease:
-                System.out.println("Eat shit");
                 AutoBargeCounter++;
                 AutoBargeText.setText(Integer.toString(AutoBargeCounter));
                 //MainActivity.editMatchData(0, 2, MainActivity.getButtonData()[0][2] + 1);

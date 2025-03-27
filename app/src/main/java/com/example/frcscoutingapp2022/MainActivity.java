@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         playedDefense = 0;
         defendedOn = 0;
 
-
+     //   Auto.leave = checked;
 
 
     }

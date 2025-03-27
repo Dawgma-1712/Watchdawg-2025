@@ -319,6 +319,7 @@
             android:layout_height="50dp"
             android:background="@color/white"
             android:button="@null"
+            android:checked="true"
             android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
             android:fontFamily="@font/norwester"
             android:gravity="center"
